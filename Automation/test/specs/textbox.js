@@ -26,7 +26,11 @@ describe('Validate Elements section', () => {
         expect(TextBox.inputCurrentAddressPlaceholder).to.equal(labels.textBoxPlaceholders.currentAddress);
     });
     it('Fill the form, click Submit btn and validate the result', () => {
+<<<<<<< HEAD:Automation/test/specs/elements.js
         browser.maximizeWindow();
+=======
+        
+>>>>>>> 4d3eea4a757051d5c434f882708e6bdfbcefb7cd:Automation/test/specs/textbox.js
         TextBox.fillForm(inputTextBox);
         TextBox.btnSubmit.scrollIntoView();
         TextBox.btnSubmit.click();
