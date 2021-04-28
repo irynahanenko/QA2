@@ -68,7 +68,7 @@ describe("Main page test suite", () => {
   it("Click on Books tile and validate the target URL", () => {
     browser.url("https://demoqa.com/");
     const element = $$(".category-cards > div")[5];
-    element.click();
+    element.click(); 
     const actualURL = browser.getUrl();
     expect(actualURL).to.equal(URLs.books);
   });
