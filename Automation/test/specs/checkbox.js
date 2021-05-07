@@ -22,5 +22,6 @@ describe('Test Suite to validate the functionality of Check Box page', () => {
             CheckBox.listItem(CheckBox.allTitles[item]).click();
         }
         expect(CheckBox.checkedElements).to.eql(CheckBox.result);
+      
     });
 });

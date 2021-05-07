@@ -9,7 +9,9 @@ export const URLs = {
     books: "https://demoqa.com/books",
     textBox: "https://demoqa.com/text-box",
     mainPage: "https://demoqa.com",
-    checkbox: "https://demoqa.com/checkbox"
+    checkbox: "https://demoqa.com/checkbox",
+    radioButton: "https://demoqa.com/radio-button",
+    webtable: "https://demoqa.com/webtables"
 }
 
 export const labels = {
@@ -35,3 +37,5 @@ export const labels = {
     },
     checkbox: "Check Box"
 }
+
+export const arr = ['Male', 'Female', 'Other'];
